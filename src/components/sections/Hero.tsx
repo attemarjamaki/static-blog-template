@@ -21,10 +21,8 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" className="rounded-full">
-                Get Started
-              </Button>
-              <Button variant="outline" size="lg" className="rounded-full">
+              <Button className="rounded-full">Get Started</Button>
+              <Button variant="outline" className="rounded-full">
                 Learn More
               </Button>
             </div>
