@@ -1,0 +1,32 @@
+export const BLOG_DATA = [
+  {
+    id: 1,
+    title: "AI: The Overlord We Seceretly Love",
+    author: "Michelle Scott",
+    desc: "AI is smarter than ever, and I still can't get my WiFi to work properly. We've got robots making art, chatbots writing novels, and self-driving cars.",
+    slug: "/blog/AI_The_Overlord_We_Secretly_Love",
+    img: "/images/code-snippet.jpg",
+    thumb: "/images/office-woman.jpg",
+    date: "Mar, 12, 2020",
+  },
+  {
+    id: 2,
+    title: "Data analysis helps growth",
+    author: "Michelle Scott",
+    desc: "Unlock valuable insights with powerful data analytics tools. Track trends, optimize performance, and make data-driven decisions.",
+    slug: "/blog/Data_analysis_helps_growth",
+    img: "/images/charts.jpg",
+    thumb: "/images/office-woman.jpg",
+    date: "Mar, 20, 2020",
+  },
+  {
+    id: 1,
+    title: "Web Development",
+    author: "Michelle Scott",
+    desc: "Build stunning, high-performance websites and applications. Custom designs, seamless functionality, and optimized user experiences.",
+    slug: "/blog/Web_Development",
+    img: "/images/security.jpg",
+    thumb: "/images/office-woman.jpg",
+    date: "Apr, 20, 2020",
+  },
+];
