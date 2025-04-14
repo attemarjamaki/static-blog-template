@@ -15,7 +15,7 @@ export default function BlogPage() {
         {BLOG_DATA.map((card, index) => {
           return (
             <Link key={index} href={card.slug}>
-              <div className="flex flex-col md:flex-row mb-16 md:mb-24">
+              <div className="flex flex-col md:flex-row p-4 md:p-6 rounded-3xl hover:shadow-lg border mb-8">
                 <div className="md:w-1/3">
                   <Image
                     src={card.img}

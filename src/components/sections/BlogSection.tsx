@@ -13,13 +13,13 @@ export function BlogSection() {
           {BLOG_DATA.map((card, index) => {
             return (
               <Link key={index} href={card.slug}>
-                <div className="border w-full p-4 md:p-6 rounded-3xl">
+                <div className="border w-full p-4 md:p-6 rounded-3xl hover:shadow-lg">
                   <Image
                     src={card.img}
                     width={400}
                     height={400}
                     alt="Code"
-                    className=" rounded-2xl object-cover w-full"
+                    className="rounded-2xl object-cover w-full"
                   />
                   <div className="space-y-4">
                     <p className="mt-8 text-sm text-neutral-500 font-light">
@@ -44,7 +44,9 @@ export function BlogSection() {
           })}
         </div>
         <div className="flex justify-end mt-8 hover:underline">
-          <Link href={"/blog"}>Read All Articles</Link>
+          <Link href={"/blog"}>
+            <p>Read All Articles</p>
+          </Link>
         </div>
       </div>
     </section>
