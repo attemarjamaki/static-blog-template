@@ -8,10 +8,10 @@ export function Hero() {
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-center space-y-12">
             <div>
-              <p className=" text-neutral-500 text-lg">
+              <p className=" text-neutral-500 text-lg mb-2">
                 www.creedthoughts.gov.www\creedthoughts
               </p>
-              <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl mb-8">
+              <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl mb-4 md:mb-8">
                 Creed Thoughts
               </h1>
               <p className="max-w-[600px] md:text-xllg:text-base xl:text-xl">

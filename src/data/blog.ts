@@ -24,12 +24,12 @@ export const BLOG_DATA = [
   {
     id: 1,
     title: "Web Development",
-    author: "Michelle Scott",
-    position: "CEO / Founder",
+    author: "Creed Bratton",
+    position: "QA",
     desc: "Build stunning, high-performance websites and applications. Custom designs, seamless functionality, and optimized user experiences.",
     slug: "/blog/Web_Development",
     img: "/images/security.jpg",
-    thumb: "/images/office-woman.jpg",
+    thumb: "/images/creed-thumb.png",
     date: "Apr, 20, 2020",
   },
 ];
