@@ -1,10 +1,10 @@
 export const BLOG_DATA = [
   {
     id: 1,
-    title: "AI: The Overlord We Seceretly Love",
+    title: "AI: The Overlord We Seceretly",
     author: "Michelle Scott",
     position: "CEO / Founder",
-    desc: "AI is smarter than ever, and I still can't get my WiFi to work properly. We've got robots making art, chatbots writing novels, and self-driving cars.",
+    desc: "AI is smarter than ever, and I still can't get my WiFi to work properly. We've got robots making art, chatbots writing novels.",
     slug: "/blog/AI_The_Overlord_We_Secretly_Love",
     img: "/images/code-snippet.jpg",
     thumb: "/images/office-woman.jpg",

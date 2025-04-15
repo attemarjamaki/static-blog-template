@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export default function BlogPage() {
   return (
-    <main className="py-8 md:py-20">
-      <div className="container px-4 md:px-6 max-w-5xl mx-auto">
+    <main className="py-8 md:py-20 px-4 md:px-6 container mx-auto">
+      <div className=" max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold mb-2">
-          From The Blog
+          All of my thoughts
         </h2>
         <p className="text-lg mb-16">
-          Read our latest articles we have posted.
+          Read my latest thoughts about my life and adventures.
         </p>
         {BLOG_DATA.map((card, index) => {
           return (
