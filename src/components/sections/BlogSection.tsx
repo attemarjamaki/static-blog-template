@@ -10,7 +10,7 @@ export function BlogSection() {
           Recent Thoughts
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {BLOG_DATA.map((card, index) => {
+          {BLOG_DATA.slice(-3).map((card, index) => {
             return (
               <Link key={index} href={card.slug}>
                 <div className="border w-full h-full p-4 md:p-6 rounded-3xl hover:shadow-lg">
@@ -47,7 +47,7 @@ export function BlogSection() {
         </div>
         <div className="flex justify-end mt-8">
           <Link href={"/blog"} className="hover:underline">
-            <p>Read All Articles</p>
+            <p>Read All Thoughts</p>
           </Link>
         </div>
       </div>
