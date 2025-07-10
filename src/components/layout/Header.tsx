@@ -22,12 +22,10 @@ export default function Header() {
   return (
     <header className="py-8 px-4 container mx-auto">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
         <Link href={"/"}>
           <div className="text-2xl font-semibold">Creed Thoughts</div>
         </Link>
 
-        {/* navItems on desktop */}
         <div className="hidden gap-8 md:flex text-lg">
           {navItems.map((item) => (
             <Link key={item.href} href={item.href}>
@@ -36,7 +34,6 @@ export default function Header() {
           ))}
         </div>
 
-        {/* hamburger menu on mobile */}
         <div className="flex items-center justify-center md:hidden">
           <button onClick={toggleMenu}>
             <Menu />

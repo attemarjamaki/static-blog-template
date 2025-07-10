@@ -10,8 +10,7 @@ export default function Footer() {
             <p className="font-medium mb-3 text-lg">Creed Thoughts</p>
           </Link>
           <p className="mb-1">
-            © {new Date().getFullYear()} All rights reversed. Just kidding,
-            they're reserved.
+            © {new Date().getFullYear()} All rights reversed.
           </p>
           <p>
             This website is not officially affiliated with The Office or Creed

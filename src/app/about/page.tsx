@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+};
+
 export default function About() {
   return (
     <main className="py-8 px-4 container mx-auto">

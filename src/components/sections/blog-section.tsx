@@ -21,7 +21,7 @@ export function BlogSection() {
                     alt="Code"
                     className="rounded-2xl object-cover w-full"
                   />
-                  <div className="flex flex-col justify-between">
+                  <div className="flex flex-col justify-between md:min-h-[240px]">
                     <div className="space-y-4">
                       <p className="mt-8 text-sm text-neutral-500 font-light">
                         {card.date}

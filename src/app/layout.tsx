@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,9 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Creed Thoughts - Static Blog Template",
+  title: {
+    default: "Creed Thoughts - Static Blog Template",
+    template: "%s - Creed Thoughts",
+  },
   description:
-    "A template for a static blog using Next.js, TypeScript, TailwindCSS and mdx",
+    "A template for a static blog using Next.js, TypeScript, TailwindCSS and MDX",
 };
 
 export default function RootLayout({

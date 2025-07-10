@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Static Blog Template
+
+A lightweight, static blog template built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **MDX**. Designed for small blogs, this template offers a fast, customizable, and developer-friendly solution for creating static blog pages with markdown-based content.
+
+## Features
+
+- **Next.js**: Leverages static site generation (SSG) for fast performance and SEO.
+- **TypeScript**: Type-safe development for better code reliability.
+- **Tailwind CSS**: Utility-first CSS framework for rapid and responsive styling.
+- **MDX**: Write blog posts in Markdown with JSX support for dynamic components.
+- **Responsive Design**: Mobile-friendly out of the box with Tailwind CSS.
+- **Easy Customization**: Modular structure for quick theme and content updates.
 
 ## Getting Started
 

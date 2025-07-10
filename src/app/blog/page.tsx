@@ -1,6 +1,11 @@
 import { BLOG_DATA } from "@/data/blog";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+};
 
 export default function BlogPage() {
   return (
